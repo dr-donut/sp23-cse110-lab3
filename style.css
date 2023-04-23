@@ -1,8 +1,9 @@
 @font-face {
-    font-family: 'castoro_titlingregular';
-    src: url('castorotitling-regular-webfont.woff2') format('woff2');
+    font-family: 'bruno_ace_scregular';
+    src: url('brunoacesc-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 /* this is a css comment */
 
 h2 {
-	font-family: "castoro_titlingregular";
+	font-family: "bruno_ace_scregular";
 	color: #fab642;
 	background-color: green;
 	margin-left: 20px;
@@ -29,7 +30,7 @@ h3 {
 }
 
 ul {
-	font-family: "castoro_titlingregular";
+	font-family: "bruno_ace_scregular";
 	color: hsl(137, 100%, 50%);
 	margin-left: 2em;
 }
