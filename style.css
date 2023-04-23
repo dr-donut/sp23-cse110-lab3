@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'castoro_titlingregular';
-    src: url('castorotitling-regular-webfont.woff2') format('woff2'),
-         url('castorotitling-regular-webfont.woff') format('woff');
+    src: url('castorotitling-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
