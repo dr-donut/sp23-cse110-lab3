@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'castoro_titlingregular';
+    src: url('castorotitling-regular-webfont.woff2') format('woff2'),
+         url('castorotitling-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
+	font-family: "castoro_titlingregular";
 	color: navy;
 	margin-left: 1cm;
 	position: relative;
@@ -37,6 +46,13 @@ button:hover {
 	color: fuchsia;
 }
 
+details:active {
+	background-color: rgba(120, 182, 255, 0.66);
+
+
+
+}
+
 .box1 {
 	border-style: solid;
 	border-color: black;
@@ -47,7 +63,7 @@ button:hover {
 	padding-right: 30px;
 	padding-bottom: 40px;
 	padding-left: 4em;
-	display: block;
+	display: flex;
 	height: 150px;
 	width: 200px;
 }
