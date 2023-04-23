@@ -29,9 +29,13 @@ details {
 	margin-left: 3ex;
 }
 
-.box {
+.box1 {
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
 	border-radius: 5px;
+}
+
+.box2 {
+	border: 1px solid blue;
 }
