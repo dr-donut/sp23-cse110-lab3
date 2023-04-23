@@ -28,3 +28,7 @@ ol {
 details {
 	margin-left: 3ex;
 }
+
+.box {
+	border: 1px solid black;
+}
