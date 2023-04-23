@@ -18,4 +18,13 @@ h3 {
 
 ul {
 	color: hsl(137, 100%, 50%);
+	margin-left: 2em;
+}
+
+ol {
+	margin-left: 2lh;
+}
+
+details {
+	margin-left: 3ex;
 }
