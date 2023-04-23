@@ -6,7 +6,6 @@
 }
 
 h1 {
-	font-family: "castoro_titlingregular";
 	color: navy;
 	margin-left: 1cm;
 	position: relative;
@@ -29,6 +28,7 @@ h3 {
 }
 
 ul {
+	font-family: "castoro_titlingregular";
 	color: hsl(137, 100%, 50%);
 	margin-left: 2em;
 }
