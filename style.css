@@ -34,17 +34,20 @@ details {
 	border-color: black;
 	border-width: 1px;
 	border-radius: 5px;
+	margin: 10px 5px 10px 5px;
+	padding-top: 0;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-left: 4em;
 }
 
 .box2 {
 	border: 1px solid blue;
-	margin: 10px 5px 10px 5px;
-	/*
 	margin-top: 10px;
 	margin-right: 5px;
 	margin-bottom: 10px
 	margin-left: 5px;
-	*/
+	padding: 0px 30px 40px 4em;
 }
 
 .box3 {
