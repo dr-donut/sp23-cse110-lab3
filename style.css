@@ -1,6 +1,7 @@
 h1 {
 	color: navy;
 	margin-left: 1cm;
+	position: relative;
 }
 
 /* this is a css comment */
@@ -9,11 +10,14 @@ h2 {
 	color: #fab642;
 	background-color: green;
 	margin-left: 20px;
+	position: static;
 }
 
 h3 {
 	color: orange;
 	margin-left: 10mm;
+	text-decoration: green wavy underline;
+	text-align: center;
 }
 
 ul {
@@ -29,6 +33,10 @@ details {
 	margin-left: 3ex;
 }
 
+button:hover {
+	color: fuchsia;
+}
+
 .box1 {
 	border-style: solid;
 	border-color: black;
@@ -39,6 +47,9 @@ details {
 	padding-right: 30px;
 	padding-bottom: 40px;
 	padding-left: 4em;
+	display: block;
+	height: 150px;
+	width: 200px;
 }
 
 .box2 {
@@ -48,9 +59,13 @@ details {
 	margin-bottom: 10px
 	margin-left: 5px;
 	padding: 0px 30px 40px 4em;
+	display: inline;
+	max-width: 200px;
+	min-width: 100px;
 }
 
 .box3 {
 	border: 1px dotted red;
 	margin: auto;
 }
+
