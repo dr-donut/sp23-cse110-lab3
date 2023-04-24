@@ -15,32 +15,16 @@ h1 {
 /* this is a css comment */
 
 h2 {
-	font-family: "bruno_ace_scregular";
 	color: #fab642;
 	background-color: green;
 	margin-left: 20px;
 	position: static;
 }
 
-h3 {
-	color: orange;
-	margin-left: 10mm;
-	text-decoration: green wavy underline;
-	text-align: center;
-}
-
-ul {
-	font-family: "bruno_ace_scregular";
+ul, ol {
 	color: hsl(137, 100%, 50%);
 	margin-left: 2em;
-}
-
-ol {
-	margin-left: 2lh;
-}
-
-details {
-	margin-left: 3ex;
+	margin-right: 2lh;
 }
 
 button:hover {
@@ -49,6 +33,34 @@ button:hover {
 
 details:active {
 	background-color: rgba(120, 182, 255, 0.66);
+}
+
+.box1 {
+	background-color: rgba(231, 139, 59, 0.5);
+}
+
+#id {
+	text-align: right;
+}
+
+* {
+	font-family: "bruno_ace_scregular";
+}
+
+div, em {
+	font-size: 5;
+}
+
+
+div > ul {
+	margin-left: 3ex;
+}
+
+div + section {
+	color: orange;
+	margin-left: 10mm;
+	text-decoration: green wavy underline;
+	text-align: center;
 }
 
 .box1 {
